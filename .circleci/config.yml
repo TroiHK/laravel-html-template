@@ -31,8 +31,8 @@ jobs: # a collection of steps
           paths:
             - node_modules
 
-      run: cp .env.example .env
-      run: php artisan key:generate
+      - run: cp .env.example .env
+      - run: php artisan key:generate
 
       # prepare the database
       # - run: touch storage/testing.sqlite
