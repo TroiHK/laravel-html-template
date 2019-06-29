@@ -1,8 +1,19 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
 // Variables
 @import 'variables';
 
+// Mixins
+@import 'mixins';
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+@import 'global/layout';
+@import 'global/global';
+
+@import 'components/portail-gate-iconsfont';
+
+@import 'blocks/header';
+@import 'blocks/banner';
+@import 'blocks/footer';
+
+@import 'templates/home';
